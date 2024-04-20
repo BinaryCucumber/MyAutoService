@@ -19,11 +19,7 @@ namespace AutoServis
         }
         private bool LoginFlag = false;
         private bool PasswordFlag = false;
-        private void LoginLabel(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void textBox_Login(object sender, EventArgs e)
         {
             if(TextBox_Login.Text == "Admin") 
@@ -35,18 +31,16 @@ namespace AutoServis
             }
         }
 
-        private void passwordLabel(object sender, EventArgs e)
-        {
-
-        }
 
         private void Autorization_Load(object sender, EventArgs e)
         {
-
+            TextBox_Password.UseSystemPasswordChar = true;
+            this.KeyPreview = true;
         }
 
         private void textBox_Password(object sender, EventArgs e)
         {
+            
             if (TextBox_Password.Text == "12345")
             {
                 PasswordFlag = true;
@@ -58,13 +52,39 @@ namespace AutoServis
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
-            if(PasswordFlag && LoginFlag) 
+            if (PasswordFlag && LoginFlag)
             {
-                ClientsData f = new ClientsData();
-                f.Show();
+                this.Hide();
+                ClientsData ClientsDataForm = new ClientsData();             
+                ClientsDataForm.Show();               
+            }
+            else
+            {
+                MessageBox.Show("Неверный логин или пароль!");
             }
         }
 
-       
+        private void pictureBox_eye_Click(object sender, EventArgs e)
+        {
+            TextBox_Password.UseSystemPasswordChar = false;
+            pictureBox_eye.Visible = false;
+            pictureBox_not_eye.Visible = true;
+        }
+
+        private void pictureBox_not_eye_Click(object sender, EventArgs e)
+        {
+            TextBox_Password.UseSystemPasswordChar = true;
+            pictureBox_not_eye.Visible = false;
+            pictureBox_eye.Visible = true;  
+        }
+
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData ==  Keys.Enter)
+            {
+                buttonEnter.PerformClick();
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
     }
 }

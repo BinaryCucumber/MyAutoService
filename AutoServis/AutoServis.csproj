@@ -95,6 +95,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="DatabaseClientsDataSet.xsc">
       <DependentUpon>DatabaseClientsDataSet.xsd</DependentUpon>
@@ -128,6 +129,13 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>DatabaseClients.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\free-icon-hide-2767146 %281%29.png" />
+    <None Include="Resources\free-icon-eye-1587461.png" />
+    <None Include="Resources\free-icon-hide-27671463.png" />
+    <None Include="Resources\free-icon-hide-27671462.png" />
+    <None Include="Resources\free-icon-hide-27671461.png" />
+    <None Include="Resources\free-icon-hide-2767146.png" />
+    <None Include="Resources\free-icon-eye-158746.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
