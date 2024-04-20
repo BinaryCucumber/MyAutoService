@@ -1,0 +1,13 @@
+C:\Users\Vsevolod\source\repos\AutoServis\AutoServis\bin\Debug\AutoServis.exe.config
+C:\Users\Vsevolod\source\repos\AutoServis\AutoServis\bin\Debug\AutoServis.exe
+C:\Users\Vsevolod\source\repos\AutoServis\AutoServis\bin\Debug\AutoServis.pdb
+C:\Users\Vsevolod\source\repos\AutoServis\AutoServis\obj\Debug\AutoServis.csproj.AssemblyReference.cache
+C:\Users\Vsevolod\source\repos\AutoServis\AutoServis\obj\Debug\AutoServis.Authorization.resources
+C:\Users\Vsevolod\source\repos\AutoServis\AutoServis\obj\Debug\AutoServis.ClientsData.resources
+C:\Users\Vsevolod\source\repos\AutoServis\AutoServis\obj\Debug\AutoServis.Properties.Resources.resources
+C:\Users\Vsevolod\source\repos\AutoServis\AutoServis\obj\Debug\AutoServis.csproj.GenerateResource.cache
+C:\Users\Vsevolod\source\repos\AutoServis\AutoServis\obj\Debug\AutoServis.csproj.CoreCompileInputs.cache
+C:\Users\Vsevolod\source\repos\AutoServis\AutoServis\obj\Debug\AutoServis.exe
+C:\Users\Vsevolod\source\repos\AutoServis\AutoServis\obj\Debug\AutoServis.pdb
+C:\Users\Vsevolod\source\repos\AutoServis\AutoServis\bin\Debug\DatabaseClients.mdf
+C:\Users\Vsevolod\source\repos\AutoServis\AutoServis\bin\Debug\DatabaseClients_log.ldf
